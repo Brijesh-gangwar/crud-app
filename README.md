@@ -1,16 +1,36 @@
-# crud_app
+# 📝 Task Manager App
 
-A new Flutter project.
+A powerful and elegant Task Management Flutter application using:
 
-## Getting Started
+- Firebase Authentication (Google Sign-In)
+- Local Storage (SQLite)
+- Realtime Sync with Firebase Realtime Database
+- BLoC State Management
+- Theme Toggle (with SharedPreferences)
+- Clean Architecture
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Setup Instructions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/task_manager_flutter.git
+   cd task_manager_flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Install Flutter Dependencies**
+   ```bash
+   flutter pub get
+
+3. **Go to Firebase Console**
+- Create a project
+- Enable Authentication → Sign-in Method → Google
+- Add Android and/or iOS app under project settings
+- Download google-services.json (for Android) or GoogleService-Info.plist (for iOS)
+- Place them in respective directories:
+```bash
+android/app/google-services.json
+
+4. **Run the App**
+   ```bash 
+   flutter run
