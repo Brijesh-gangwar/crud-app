@@ -38,27 +38,27 @@ A powerful and elegant Task Management Flutter application using:
 
 ## 🧑‍💻 Usage Instructions
    1. **💡 Features**
-   🔐 Google Sign-In
+   - 🔐 Google Sign-In
 
-   📋 Add / Edit / Delete Tasks
+   - 📋 Add / Edit / Delete Tasks
    
-   🔍 Search Tasks by Title
+   - 🔍 Search Tasks by Title
 
-   📅 Sort by Date / Priority
+   - 📅 Sort by Date / Priority
 
-   🌗 Toggle Dark and Light Theme
+   - 🌗 Toggle Dark and Light Theme
 
-   🔄 Sync with Firebase and store locally for offline access
+   - 🔄 Sync with Firebase and store locally for offline access
 
    2. **👇 How to Use**
-   Sign In with your Google account.
+   - Sign In with your Google account.
 
-   Add Tasks using the Floating Action Button.
+   - Add Tasks using the Floating Action Button.
 
-   Edit or Delete by swiping or using the task card.
+   - Edit or Delete by swiping or using the task card.
 
-   Search for tasks using the search bar.
+   - Search for tasks using the search bar.
 
-   Switch Theme from AppBar.
+   - Switch Theme from AppBar.
 
-   Logout from AppBar.
+   - Logout from AppBar.
